@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   stories: ['../src/components/**/*.stories.js'],
   staticDir: ['../public'],
@@ -7,4 +9,6 @@ module.exports = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-interactions',
   ],
+  // Make whatever fine-grained changes you need
+
 };
